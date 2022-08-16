@@ -1,4 +1,3 @@
-import './App.css';
 import { Box, HStack, Center } from '@chakra-ui/react';
 import { FirstSection } from './Components/FirstSection';
 import { SecondSection } from './Components/SecondSection';
