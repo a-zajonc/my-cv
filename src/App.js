@@ -1,10 +1,16 @@
 import './App.css';
+import { Box, HStack } from '@chakra-ui/react';
+import { FirstSection } from './Components/FirstSection';
+import { SecondSection } from './Components/SecondSection';
 
 function App() {
   return (
-    <div>
-      Hello
-    </div>
+    <Box m={2} p={10}>
+      <HStack>
+        <FirstSection />
+        <SecondSection />
+      </HStack>
+    </Box>
   );
 }
 
