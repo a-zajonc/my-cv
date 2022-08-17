@@ -3,7 +3,7 @@ import { Box, UnorderedList, ListItem, Heading } from '@chakra-ui/react';
 export function Skils() {
     return <Box>
         <Heading fontFamily="Montserrat" color="#FFE7D4" textTransform="uppercase">Umiejętności</Heading>
-        <UnorderedList>
+        <UnorderedList pb={20}>
             <ListItem fontFamily="Montserrat" color="white">język angielski - poziom B2</ListItem>
             <ListItem fontFamily="Montserrat" color="white">JavaScript - poziom podstawowy</ListItem>
             <ListItem fontFamily="Montserrat" color="white">HTML i CSS - poziom podstawowy</ListItem>
