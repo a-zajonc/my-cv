@@ -1,8 +1,9 @@
-import { Box, Text } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 import "@fontsource/montserrat"
+import { Employment } from './Employment';
 
 export function SecondSection() {
     return <Box width="700px">
-        <Text fontFamily="Montserrat">Experience part</Text>
+        <Employment />
     </Box>
 }
