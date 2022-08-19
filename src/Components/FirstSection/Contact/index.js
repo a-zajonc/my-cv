@@ -6,8 +6,8 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export function Contact() {
     return <Box>
-        <Heading fontFamily="Montserrat" color="#FFE7D4" textTransform="uppercase">Dane kontaktowe</Heading>
-        <List>
+        <Heading fontFamily="Montserrat" color="#FFE7D4" textTransform="uppercase" pb="5">Dane kontaktowe</Heading>
+        <List pb="10" >
             <ListItem display="flex" alignItems="center">
                 <FontAwesomeIcon icon={faPhone} color="white" />
                 <Text fontFamily="Montserrat" color="white" pl="10">
