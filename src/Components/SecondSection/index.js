@@ -1,9 +1,10 @@
 import { Box } from '@chakra-ui/react';
-import "@fontsource/montserrat"
+import { Education } from './Education';
 import { Employment } from './Employment';
 
 export function SecondSection() {
-    return <Box display="grid" width="60%">
+    return <Box width="60%">
         <Employment />
+        <Education />
     </Box>
 }
