@@ -1,4 +1,4 @@
-import { Heading, Box, UnorderedList, ListItem } from '@chakra-ui/react';
+import { Box, UnorderedList, ListItem } from '@chakra-ui/react';
 import { Header } from '../Styling';
 
 export function Hobbies() {
