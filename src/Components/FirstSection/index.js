@@ -7,7 +7,7 @@ import { Skils } from './Skills';
 import { Contact } from './Contact';
 
 export function FirstSection() {
-    return <Box p={20} bg="#494E5F" width="700px">
+    return <Box p={20} bg="#494E5F" width="35%" ml="10" mb="10">
         <Center>
             <PortfolioImage />
         </Center>

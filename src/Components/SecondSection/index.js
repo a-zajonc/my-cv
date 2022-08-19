@@ -3,7 +3,7 @@ import "@fontsource/montserrat"
 import { Employment } from './Employment';
 
 export function SecondSection() {
-    return <Box width="700px">
+    return <Box display="grid" width="60%">
         <Employment />
     </Box>
 }
