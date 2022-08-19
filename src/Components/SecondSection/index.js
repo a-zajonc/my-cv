@@ -4,8 +4,9 @@ import { Employment } from './Employment';
 import { Hobbies } from './Hobbies';
 
 export function SecondSection() {
+
     return <Box width="60%">
-        <Employment />
+        <Employment title={"Wykształcenie"} />
         <Education />
         <Hobbies />
     </Box>

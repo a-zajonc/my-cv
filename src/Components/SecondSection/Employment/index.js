@@ -1,11 +1,10 @@
 import { Heading, Box, UnorderedList, ListItem, Accordion, AccordionButton, AccordionItem, AccordionIcon, AccordionPanel } from '@chakra-ui/react';
+import { Header } from '../Styling';
 
 export function Employment() {
 
     return <Box p="5">
-        <Box bg="#FFE7D4" p="4">
-            <Heading as="h1" fontFamily="Montserrat" color="#494E5F" textTransform="uppercase" >Historia zatrudnienia</Heading>
-        </Box>
+        <Header title={"Historia zatrudnienia"} />
         <Accordion allowMultiple >
             <AccordionItem border="none" pt={3}>
                 <AccordionButton pl={0}>

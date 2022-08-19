@@ -1,10 +1,10 @@
 import { Box, Heading, UnorderedList, ListItem, Text } from '@chakra-ui/react';
+import { Header } from '../Styling';
 
 export function Education() {
+
     return <Box p="5">
-        <Box bg="#FFE7D4" p="4">
-            <Heading as="h1" fontFamily="Montserrat" color="#494E5F" textTransform="uppercase" >Wykształcenie</Heading>
-        </Box>
+        <Header title={"Wykształcenie"} />
         <Heading fontSize="24px" fontFamily="Montserrat" color="#494E5F" pt="3" pb="3">
             Uniwersytet Szczeciński
         </Heading>
