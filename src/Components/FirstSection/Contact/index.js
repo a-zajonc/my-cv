@@ -1,4 +1,4 @@
-import { Heading, Box, Text, List, ListItem } from '@chakra-ui/react';
+import { Box, Text, List, ListItem } from '@chakra-ui/react';
 import { faPhone, faEnvelope, faLocationPin } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from '@fortawesome/free-brands-svg-icons'

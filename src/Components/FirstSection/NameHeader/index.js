@@ -5,6 +5,6 @@ export function NameHeader() {
         <Heading fontFamily="Montserrat" color="#FFE7D4" textTransform="uppercase" fontSize="60px" ml={10}>
             Adriana Słabosz
         </Heading>
-        <Box bg="#FFE7D4" width="500px" height="5px" />
+        <Box bg="#FFE7D4" width="100%" height="5px" />
     </Box>
 }
