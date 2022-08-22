@@ -62,4 +62,23 @@ export const work = [
     }
 ]
 
-export const hobbies = ["czytanie książek po polsku i po angielsku, głównie z gatunku literatury faktu, popularnonaukowych, podróżniczych, kryminały i poradniki", "piłka nożna, w szczególności Manchester United", "filmy i seriale", "gry komputerowe, głównie takie z otwartym światem"]
+export const hobbies =
+    [
+        "czytanie książek po polsku i po angielsku, głównie z gatunku literatury faktu, popularnonaukowych, podróżniczych, kryminały i poradniki",
+        "piłka nożna, w szczególności Manchester United",
+        "filmy i seriale",
+        "gry komputerowe, głównie takie z otwartym światem"
+    ]
+
+export const studies = [
+    {
+        department: "Wydział Nauk Ekonomicznych i Zarządzania",
+        studiesName: "Magister Public Management",
+        years: "2016-2018"
+    },
+    {
+        department: "Wydział Filologiczny",
+        studiesName: "Licencjat Filologii angielskiej",
+        years: "2013-2016"
+    }
+]
