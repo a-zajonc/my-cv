@@ -86,3 +86,12 @@ export const studies = [
 export const about = [
     "Jestem osobą, która nie boi się wyzwań. Podjęcie się awansu w pracy z jednoczesnym studiowaniem czy przeprowadzka do innego miasta nie jest dla mnie większym problemem. Podczas przebywania na urlopie macierzyńskim postanowiłam podjąć się kolejnego wyzwania, jakim jest nauka programowania. Zdecydowałam się na samodzielną naukę JavaScript, HTML oraz CSS. Następnie wdrożyłam React, a niedawno zaczęłam korzystać z GitHuba oraz uczyć się Gita. Następnie w planach mam podjęcie się nauki TypeScripta."
 ]
+
+export const skills = [
+    "język angielski - poziom B2",
+    "JavaScript - poziom podstawowy",
+    "HTML i CSS - poziom podstawowy",
+    "React - poziom podstawowy",
+    "Git - poziom podstawowy",
+    "prawo jazdy kat. B"
+]

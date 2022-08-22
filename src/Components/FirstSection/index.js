@@ -3,7 +3,7 @@ import { PortfolioImage } from './Image';
 import "@fontsource/montserrat"
 import { NameHeader } from './NameHeader';
 import { About } from './About';
-import { Skils } from './Skills';
+import { Skills } from './Skills';
 import { Contact } from './Contact';
 
 export function FirstSection() {
@@ -13,7 +13,7 @@ export function FirstSection() {
         </Center>
         <NameHeader />
         <About />
-        <Skils />
+        <Skills />
         <Contact />
     </Box>
 }
