@@ -2,6 +2,7 @@ import { Heading, Box, Text, List, ListItem } from '@chakra-ui/react';
 import { faPhone, faEnvelope, faLocationPin } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { SectionHeader } from '../Styling';
 
 
 export function Contact() {
@@ -16,7 +17,7 @@ export function Contact() {
     }
 
     return <Box>
-        <Heading fontFamily="Montserrat" color="#FFE7D4" textTransform="uppercase" pb="5">Dane kontaktowe</Heading>
+        <SectionHeader title="Dane kontaktowe" />
         <List pb="10" >
             {contactDisplay((faPhone), ("668 954 072"))}
             {contactDisplay((faGithub), ("https://github.com/a-zajonc"))}
