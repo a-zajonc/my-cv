@@ -1,8 +1,7 @@
 import { Box, UnorderedList, ListItem } from '@chakra-ui/react';
 import { SectionHeader } from '../Styling';
-import { skills } from '../../../database';
 
-export function Skills() {
+export function Skills({ skills }) {
     const skillsDisplay = (skill) => {
         return <ListItem fontFamily="Montserrat" color="white">{skill}</ListItem>
     }
