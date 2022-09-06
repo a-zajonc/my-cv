@@ -1,7 +1,7 @@
 import { Box, Heading, UnorderedList, ListItem, Text } from '@chakra-ui/react';
 import { Header } from '../Styling';
 
-export function Education({ studies }) {
+export function Education({ studies, title }) {
 
     function studiesDisplay(department, studiesName, years) {
 
@@ -22,7 +22,7 @@ export function Education({ studies }) {
     }
 
     return <Box p="5">
-        <Header title={"Wykształcenie"} />
+        <Header title={title} />
         <Heading fontSize="24px" fontFamily="Montserrat" color="#494E5F" pt="3" pb="3">
             Uniwersytet Szczeciński
         </Heading>

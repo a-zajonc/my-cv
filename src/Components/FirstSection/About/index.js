@@ -1,15 +1,12 @@
 import { Text, Box } from '@chakra-ui/react';
 import { SectionHeader } from '../Styling';
-import { useTranslation } from 'react-i18next';
 
-export function About() {
-
-    const { t } = useTranslation();
+export function About({ title, about }) {
 
     return <Box>
-        <SectionHeader title="O mnie" />
+        <SectionHeader title={title} />
         <Text fontFamily="Montserrat" color="white" fontSize="15px" fontWeight="100" pb="10" >
-            {t('about')}
+            {about}
         </Text>
     </Box>
 }

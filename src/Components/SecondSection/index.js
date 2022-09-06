@@ -9,8 +9,8 @@ export function SecondSection() {
     const { t } = useTranslation();
 
     return <Box width="60%">
-        <Employment work={t('work', { returnObjects: true })} />
-        <Education studies={t('studies', { returnObjects: true })} />
-        <Hobbies hobbies={t('hobbies', { returnObjects: true })} />
+        <Employment title={t("workTitle")} work={t('work', { returnObjects: true })} />
+        <Education title={t("educationTitle")} studies={t('studies', { returnObjects: true })} />
+        <Hobbies title={t("hobbiesTitle")} hobbies={t('hobbies', { returnObjects: true })} />
     </Box>
 }
