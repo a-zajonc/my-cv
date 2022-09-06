@@ -2,18 +2,21 @@ import { ChakraProvider, Box } from '@chakra-ui/react';
 import { FirstSection } from './Components/FirstSection';
 import { SecondSection } from './Components/SecondSection';
 import { LanguageChange } from './Components/LanguageChange';
+import { Suspense } from 'react';
 
 function App() {
   return (
-    <ChakraProvider>
-      <Box>
-        <LanguageChange />
-        <Box display="flex">
-          <FirstSection />
-          <SecondSection />
+    <Suspense fallback="...is loading">
+      <ChakraProvider>
+        <Box>
+          <LanguageChange />
+          <Box display="flex">
+            <FirstSection />
+            <SecondSection />
+          </Box>
         </Box>
-      </Box>
-    </ChakraProvider>
+      </ChakraProvider>
+    </Suspense>
   );
 }
 
