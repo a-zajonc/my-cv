@@ -1,24 +1,35 @@
-import { Box, Heading, UnorderedList, ListItem, Text } from '@chakra-ui/react';
+import { Box, Heading, UnorderedList, ListItem, Text, Accordion, AccordionItem, AccordionButton, AccordionPanel, AccordionIcon, Center } from '@chakra-ui/react';
 import { Header } from '../Styling';
 
 export function Education({ studies, title }) {
 
-    function studiesDisplay(department, studiesName, years) {
+    function studiesDisplay(department, studiesName, years, additional) {
 
-        return <ListItem>
+        return <ListItem >
             <Text fontSize="14px" fontFamily="Montserrat" color="#494E5F" fontWeight="300" >
                 {department}
             </Text>
-            <Box display="flex" justifyContent="space-between">
-                <Heading fontSize="22px" fontFamily="Montserrat" color="#494E5F" pt="3">
-                    {studiesName}
-                </Heading>
-                <Text fontFamily="Montserrat" color="#494E5F" fontSize="22px" pt="3">
-                    {years}
-                </Text>
-            </Box>
+            <Accordion allowMultiple >
+                <AccordionItem border="none">
+                    <AccordionButton display="flex" justifyContent="space-between" pl={0}>
+                        <Heading fontSize="22px" fontFamily="Montserrat" color="#494E5F">
+                            {studiesName}
+                        </Heading>
+                        <Box Box display="flex">
+                            <Text fontFamily="Montserrat" color="#494E5F" fontSize="22px" mr={1}>
+                                {years}
+                            </Text>
+                            <Center>
+                                <AccordionIcon />
+                            </Center>
+                        </Box>
+                    </AccordionButton>
+                    <AccordionPanel>
+                        <Text fontFamily="Montserrat" color="#494E5F">{additional}</Text>
+                    </AccordionPanel>
+                </AccordionItem>
+            </Accordion>
         </ListItem>
-
     }
 
     return <Box p="5">
@@ -28,7 +39,7 @@ export function Education({ studies, title }) {
         </Heading>
         <UnorderedList pl="3">
             {studies.map((study) => {
-                return studiesDisplay((study.department), (study.studiesName), (study.years))
+                return studiesDisplay((study.department), (study.studiesName), (study.years), (study.additional))
             }
             )
             }
