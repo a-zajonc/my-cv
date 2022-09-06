@@ -16,11 +16,13 @@
     {
       "department": "Wydział Nauk Ekonomicznych i Zarządzania",
       "studiesName": "Magister Public Management",
+      "additional": "Studia w języku angielskim ukończone z wydaniem anglojęzycznego dyplomu",
       "years": "2016-2018"
     },
     {
       "department": "Wydział Filologiczny",
       "studiesName": "Licencjat Filologii angielskiej",
+      "additional": "Specjalizacja nauczycielska",
       "years": "2013-2016"
     }
   ],

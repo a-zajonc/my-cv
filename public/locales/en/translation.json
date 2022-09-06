@@ -16,11 +16,13 @@
     {
       "department": "Faculty of Economics, Finance and Management",
       "studiesName": "Masters of Public Management",
+      "additional": "Studia w języku angielskim ukończone z wydaniem anglojęzycznego dyplomu",
       "years": "2016-2018"
     },
     {
       "department": "Faculty of Philology",
       "studiesName": "Bachelor of English Philology",
+      "additional": "Teaching degree",
       "years": "2013-2016"
     }
   ],
