@@ -26,5 +26,62 @@
     "React - basic level",
     "Git - basic level",
     "Driver’s license"
+  ],
+  "work": [
+    {
+      "jobTitle": "Department Manager in H&M",
+      "place": "Marino Shopping Mall, Wrocław (06.2018 - 08.2020, including Maternity Leave: 08.2019-08.2020)",
+      "jobDescription": [
+        "Ability to work in dynamic work environment, adapt to change and flexibility towards making plans and setting priorities",
+        "Ability to work and making decisions under pressure",
+        "Recruitment, staff trainings, writing performance review and development recommendations",
+        "Sales force, team and time management",
+        "Team supervision and providing feedback",
+        "Active participation in maximizing selling and preventing loss.",
+        "Analyzing and follow up on Sales and Profit reports on regular basis",
+        "Management of administration and staff regulations issues, along with preparing work schedule or managing leaves of absence."
+      ]
+    },
+    {
+      "jobTitle": "Team Leader in H&M",
+      "place": "Szczecin (02.2018 - 05.2018)",
+      "jobDescription": [
+        "Management and onboarding of the staff",
+        "Team management",
+        "Customer services that contributes to the sales and profit goals ",
+        "Handling tasks related to accounting and cash flow",
+        "Handling the cash office administration along with in-store stock, banking, work accordance with applicable law and privacy policy in the company following safety and security requirements"
+      ]
+    },
+    {
+      "jobTitle": "Sales Advisor in H&M",
+      "place": "Galaxy Shopping Mall, Szczecin (07.2015 - 05.2018)",
+      "jobDescription": [
+        "Direct customer service",
+        "Ensuring efficient stock replenishment",
+        "Unloading and unpacking merchandise",
+        "Visual merchandising acording to company's standards"
+      ]
+    },
+    {
+      "jobTitle": "Sales Assistant in Reserved",
+      "place": "Kaskada Shopping Mall, Szczecin (03.2014 - 06.2015)",
+      "jobDescription": [
+        "Customer service",
+        "Cash register operating",
+        "Team management",
+        "Ensuring the flow of products between the sales floor and warehouse"
+      ]
+    },
+    {
+      "jobTitle": "Bartender",
+      "place": "Bombay Restaurant, Szczecin (10.2013 - 02.2014)",
+      "jobDescription": [
+        "The arrangement of work stations",
+        "Team work and effective communication with other members of the team",
+        "Controlling of the stock level of products",
+        "Work according to the standards of the company."
+      ]
+    }
   ]
 }

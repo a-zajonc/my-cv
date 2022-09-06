@@ -1,8 +1,7 @@
 import { Heading, Box, UnorderedList, ListItem, Accordion, AccordionButton, AccordionItem, AccordionIcon, AccordionPanel } from '@chakra-ui/react';
 import { Header } from '../Styling';
-import { work } from '../../../database';
 
-export function Employment() {
+export function Employment({ work }) {
 
     function workplaceDisplay(jobTitle, jobPlace, jobExperience) {
         return <AccordionItem border="none" pt={3}>
