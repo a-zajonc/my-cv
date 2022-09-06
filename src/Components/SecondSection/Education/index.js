@@ -1,8 +1,7 @@
 import { Box, Heading, UnorderedList, ListItem, Text } from '@chakra-ui/react';
 import { Header } from '../Styling';
-import { studies } from '../../../database';
 
-export function Education() {
+export function Education({ studies }) {
 
     function studiesDisplay(department, studiesName, years) {
 

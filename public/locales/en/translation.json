@@ -5,5 +5,17 @@
     "reading books, especially mystery, thriller, memoir, biography, guide and non-fictions ones",
     "watching Football, I'm a Manchester United fan",
     "playing video games, especially sandbox ones"
+  ],
+  "studies": [
+    {
+      "department": "Faculty of Economics, Finance and Management",
+      "studiesName": "Masters of Public Management",
+      "years": "2016-2018"
+    },
+    {
+      "department": "Faculty of Philology",
+      "studiesName": "Bachelor of English Philology",
+      "years": "2013-2016"
+    }
   ]
 }
