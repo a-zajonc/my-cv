@@ -10,9 +10,7 @@ export function SecondSection() {
 
     return <Box width="60%">
         <Employment />
-        <Education />
+        <Education studies={t('studies', { returnObjects: true })} />
         <Hobbies hobbies={t('hobbies', { returnObjects: true })} />
     </Box>
 }
-
-// i18next.t('hobbies', { returnObjects: true })
