@@ -5,7 +5,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { SectionHeader } from '../Styling';
 
 
-export function Contact() {
+export function Contact({ title }) {
 
     function contactDisplay(icon, information) {
         return <ListItem display="flex" alignItems="center">
@@ -17,7 +17,7 @@ export function Contact() {
     }
 
     return <Box>
-        <SectionHeader title="Dane kontaktowe" />
+        <SectionHeader title={title} />
         <List pb="10" >
             {contactDisplay((faPhone), ("668 954 072"))}
             {contactDisplay((faGithub), ("https://github.com/a-zajonc"))}

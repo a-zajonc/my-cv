@@ -16,8 +16,8 @@ export function FirstSection() {
             <PortfolioImage />
         </Center>
         <NameHeader />
-        <About />
-        <Skills skills={t('skills', { returnObjects: true })} />
-        <Contact />
+        <About title={t("aboutTitle")} about={t('about')} />
+        <Skills title={t("skillsTitle")} skills={t('skills', { returnObjects: true })} />
+        <Contact title={t("contactTitle")} />
     </Box>
-}
+} 

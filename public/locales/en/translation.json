@@ -1,4 +1,10 @@
 {
+  "aboutTitle": "About me",
+  "skillsTitle": "Skills and Languages",
+  "contactTitle": "Contact details",
+  "workTitle": "Employment",
+  "educationTitle": "Education",
+  "hobbiesTitle": "Hobbies",
   "about": "I'm a person, who is not afraid of challenges. After finishing Bachelor Degree, I decided to change departments of studies completely to broaden my horizons, but still studied in English language. Also, I decided to seek better career opportunities and took on promotion in Wrocław and at the same time I was finishing studies in Szczecin. During my maternity leave I decided to start learning about programming. Using all available sources like books, videos, blogs and free courses I started learning JavaScript, HTML and CSS. Next I introduced React. Recently, I started to use Github and Git. The next challenge on my list is to start learning TypeScript.",
   "hobbies": [
     "watching movies and TV series",

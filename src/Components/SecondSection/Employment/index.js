@@ -1,7 +1,7 @@
 import { Heading, Box, UnorderedList, ListItem, Accordion, AccordionButton, AccordionItem, AccordionIcon, AccordionPanel } from '@chakra-ui/react';
 import { Header } from '../Styling';
 
-export function Employment({ work }) {
+export function Employment({ work, title }) {
 
     function workplaceDisplay(jobTitle, jobPlace, jobExperience) {
         return <AccordionItem border="none" pt={3}>
@@ -27,7 +27,7 @@ export function Employment({ work }) {
     }
 
     return <Box p="5">
-        <Header title={"Historia zatrudnienia"} />
+        <Header title={title} />
         <Accordion allowMultiple>
             {work.map((job) => {
                 return workplaceDisplay((job.jobTitle), (job.place), (job.jobDescription))
