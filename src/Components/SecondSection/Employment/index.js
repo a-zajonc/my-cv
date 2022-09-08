@@ -1,30 +1,30 @@
 import { Heading, Box, UnorderedList, ListItem, Accordion, AccordionButton, AccordionItem, AccordionIcon, AccordionPanel } from '@chakra-ui/react';
 import { Header } from '../Styling';
 
-export function Employment({ work, title }) {
-
-    function workplaceDisplay(jobTitle, jobPlace, jobExperience) {
-        return <AccordionItem border="none" pt={3}>
-            <AccordionButton pl={0}>
-                <Heading fontSize="24px" fontFamily="Montserrat" color="#494E5F" flex='1' textAlign='left'>
-                    {jobTitle}
-                </Heading>
-                <AccordionIcon />
-            </AccordionButton>
-            <Heading fontSize="14px" fontFamily="Montserrat" color="#494E5F" fontWeight="300">
-                {jobPlace}
+function workplaceDisplay(jobTitle, jobPlace, jobExperience) {
+    return <AccordionItem border="none" pt={3}>
+        <AccordionButton pl={0}>
+            <Heading fontSize="24px" fontFamily="Montserrat" color="#494E5F" flex='1' textAlign='left'>
+                {jobTitle}
             </Heading>
-            <AccordionPanel>
-                <UnorderedList color="#494E5F">
-                    {jobExperience.map((experience) => {
-                        return <ListItem fontFamily="Montserrat">{experience}</ListItem>
-                    }
-                    )}
-                </UnorderedList>
-            </AccordionPanel>
-        </AccordionItem>
+            <AccordionIcon />
+        </AccordionButton>
+        <Heading fontSize="14px" fontFamily="Montserrat" color="#494E5F" fontWeight="300">
+            {jobPlace}
+        </Heading>
+        <AccordionPanel>
+            <UnorderedList color="#494E5F">
+                {jobExperience.map((experience) => {
+                    return <ListItem fontFamily="Montserrat">{experience}</ListItem>
+                }
+                )}
+            </UnorderedList>
+        </AccordionPanel>
+    </AccordionItem>
 
-    }
+}
+
+export function Employment({ work, title }) {
 
     return <Box p="5">
         <Header title={title} />

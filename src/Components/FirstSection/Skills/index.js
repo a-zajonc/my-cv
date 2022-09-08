@@ -1,10 +1,11 @@
 import { Box, UnorderedList, ListItem } from '@chakra-ui/react';
 import { SectionHeader } from '../Styling';
 
+const skillsDisplay = (skill) => {
+    return <ListItem fontFamily="Montserrat" color="white">{skill}</ListItem>
+}
+
 export function Skills({ skills, title }) {
-    const skillsDisplay = (skill) => {
-        return <ListItem fontFamily="Montserrat" color="white">{skill}</ListItem>
-    }
 
     return <Box>
         <SectionHeader title={title} />

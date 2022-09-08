@@ -5,7 +5,7 @@ import { About } from './About';
 import { Skills } from './Skills';
 import { Contact } from './Contact';
 import { useTranslation } from 'react-i18next';
-import "@fontsource/montserrat"
+
 
 export function FirstSection() {
 
