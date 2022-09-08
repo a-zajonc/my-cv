@@ -7,9 +7,17 @@ import { extendTheme } from '@chakra-ui/react';
 
 export const theme = extendTheme({
   fonts: {
-    heading: `"montserrat"`,
+    heading: "montserrat",
     body: "montserrat",
   },
+  colors: {
+    brand: {
+      firstSectionHeading: "#FFE7D4",
+      firstSectionText: "white",
+      secondSection: "#494E5F",
+
+    }
+  }
 })
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

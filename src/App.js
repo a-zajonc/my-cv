@@ -1,4 +1,4 @@
-import { ChakraProvider, Box, extendTheme } from '@chakra-ui/react';
+import { ChakraProvider, Box } from '@chakra-ui/react';
 import { FirstSection } from './Components/FirstSection';
 import { SecondSection } from './Components/SecondSection';
 import { LanguageChange } from './Components/LanguageChange';

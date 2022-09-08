@@ -13,7 +13,7 @@ export function LanguageChange() {
     return <Box display="grid" justifyItems="end" mt="1" mr="2">
         <div>
             {Object.keys(lngs).map((lng) => (
-                <Button bg="#FFE7D4" mr="1" maxH="40px" maxW="60px" key={lng} onClick={() => i18n.changeLanguage(lng)}>{lngs[lng].img}</Button>
+                <Button bg="brand.firstSectionHeading" mr="1" maxH="40px" maxW="60px" key={lng} onClick={() => i18n.changeLanguage(lng)}>{lngs[lng].img}</Button>
             ))}
         </div>
     </Box>

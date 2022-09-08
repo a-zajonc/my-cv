@@ -8,7 +8,7 @@ import { SectionHeader } from '../Styling';
 function contactDisplay(icon, information) {
     return <ListItem display="flex" alignItems="center">
         <FontAwesomeIcon icon={icon} color="white" width="16px" height="16px" />
-        <Text color="white" pl="10">
+        <Text color="brand.firstSectionText" pl="10">
             {information}
         </Text>
     </ListItem>
