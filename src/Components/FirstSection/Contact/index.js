@@ -1,4 +1,4 @@
-import { Box, Text, List, ListItem } from '@chakra-ui/react';
+import { Box, Text, List, ListItem, Link } from '@chakra-ui/react';
 import { faPhone, faEnvelope, faLocationPin } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -20,7 +20,7 @@ export function Contact({ title }) {
         <SectionHeader title={title} />
         <List pb="10" >
             {contactDisplay((faPhone), ("668 954 072"))}
-            {contactDisplay((faGithub), ("https://github.com/a-zajonc"))}
+            <Link href="https://github.com/a-zajonc">{contactDisplay((faGithub), ("https://github.com/a-zajonc"))}</Link>
             {contactDisplay((faEnvelope), ("slaboszadriana@gmail.com"))}
             {contactDisplay((faLocationPin), ("Szczecin"))}
         </List>
