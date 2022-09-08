@@ -1,14 +1,14 @@
 import { Box, Image, Button } from '@chakra-ui/react';
 import { useTranslation } from 'react-i18next';
 
-const lngs = {
-    pl: { img: <Image src="https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg" alt='Polska Flaga' maxH="30px" maxW="50px" /> },
-    en: { img: <Image src="https://seeklogo.com/images/U/United_Kingdom_Flag-logo-418BAEEF32-seeklogo.com.png" alt="Brytyjska Flaga" maxH="30px" maxW="50px" /> }
-};
-
 export function LanguageChange() {
 
-    const { i18n } = useTranslation();
+    const { t, i18n } = useTranslation();
+
+    const lngs = {
+        pl: { img: <Image src="https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg" alt={t("polishFlag")} maxH="30px" maxW="50px" /> },
+        en: { img: <Image src="https://seeklogo.com/images/U/United_Kingdom_Flag-logo-418BAEEF32-seeklogo.com.png" alt={t("englishFlag")} maxH="30px" maxW="50px" /> }
+    };
 
     return <Box display="grid" justifyItems="end" mt="1" mr="2">
         <div>
