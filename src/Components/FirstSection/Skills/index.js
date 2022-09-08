@@ -2,7 +2,7 @@ import { Box, UnorderedList, ListItem } from '@chakra-ui/react';
 import { SectionHeader } from '../Styling';
 
 const skillsDisplay = (skill) => {
-    return <ListItem color="white">{skill}</ListItem>
+    return <ListItem color="brand.firstSectionText">{skill}</ListItem>
 }
 
 export function Skills({ skills, title }) {
