@@ -6,7 +6,7 @@ Jest to strona wykonana na wzór mojego CV zastosowaniem biblioteki Chakra UI z 
 
 React i JS, Chakra UI, i18next, FontAwesomeIcon.
 
-# My CV
+# My Resume
 
 It is a website created on the basis of my CV. It's bilingual. 
 
