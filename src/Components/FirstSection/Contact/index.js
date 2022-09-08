@@ -5,16 +5,16 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { SectionHeader } from '../Styling';
 
 
-export function Contact({ title }) {
+function contactDisplay(icon, information) {
+    return <ListItem display="flex" alignItems="center">
+        <FontAwesomeIcon icon={icon} color="white" width="16px" height="16px" />
+        <Text fontFamily="Montserrat" color="white" pl="10">
+            {information}
+        </Text>
+    </ListItem>
+}
 
-    function contactDisplay(icon, information) {
-        return <ListItem display="flex" alignItems="center">
-            <FontAwesomeIcon icon={icon} color="white" width="16px" height="16px" />
-            <Text fontFamily="Montserrat" color="white" pl="10">
-                {information}
-            </Text>
-        </ListItem>
-    }
+export function Contact({ title }) {
 
     return <Box>
         <SectionHeader title={title} />

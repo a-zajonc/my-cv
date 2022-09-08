@@ -3,6 +3,7 @@ import { FirstSection } from './Components/FirstSection';
 import { SecondSection } from './Components/SecondSection';
 import { LanguageChange } from './Components/LanguageChange';
 import { Suspense } from 'react';
+import "@fontsource/montserrat"
 
 function App() {
   return (
