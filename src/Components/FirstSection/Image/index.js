@@ -6,7 +6,7 @@ export function PortfolioImage() {
     <Image
       src={PortfolioPicture}
       alt="Adriana Słabosz"
-      maxH={{ sm: "150px", lg: "300px" }}
+      maxH={{ sm: "150px", md: "200px", lg: "300px" }}
       borderRadius="150"
     />
   );

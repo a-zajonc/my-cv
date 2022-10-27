@@ -1,4 +1,4 @@
-import { Box, Center } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import { PortfolioImage } from "./Image";
 import { NameHeader } from "./NameHeader";
 import { About } from "./About";

@@ -16,7 +16,7 @@ function contactDisplay(icon, information) {
       alignItems="center"
       pb={{ sm: "20px", lg: "10px" }}
     >
-      <FontAwesomeIcon icon={icon} color="white" width="16px" height="16px" />
+      <FontAwesomeIcon icon={icon} color="white" width="28px" height="28px" />
       <Text
         color="brand.firstSectionText"
         pl={{ sm: "15px", lg: "30px" }}
