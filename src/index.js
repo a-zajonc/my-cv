@@ -1,9 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import './i18n';
-import { extendTheme } from '@chakra-ui/react';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import "./i18n";
+import { extendTheme } from "@chakra-ui/react";
 
 export const theme = extendTheme({
   fonts: {
@@ -15,12 +15,18 @@ export const theme = extendTheme({
       firstSectionHeading: "#FFE7D4",
       firstSectionText: "white",
       secondSection: "#494E5F",
+    },
+  },
+  breakpoints: {
+    sm: "320px",
+    md: "768px",
+    lg: "960px",
+    xl: "1200px",
+    "2xl": "1536px",
+  },
+});
 
-    }
-  }
-})
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
