@@ -1,3 +1,6 @@
+Live Page:
+https://my-cv-sigma.vercel.app/
+
 # Moje CV
 
 Jest to strona wykonana na wzór mojego CV zastosowaniem biblioteki Chakra UI z opcją przełączania języków (polski, angielski). 
