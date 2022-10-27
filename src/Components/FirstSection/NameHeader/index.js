@@ -6,15 +6,15 @@ export function NameHeader() {
       <Heading
         color="brand.firstSectionHeading"
         textTransform="uppercase"
-        fontSize={{ sm: "32px", lg: "60px" }}
-        ml={{ sm: "40px", lg: "30px" }}
+        fontSize={{ sm: "32px", md: "60px", lg: "60px" }}
+        ml={{ sm: "40px", md: "", lg: "30px" }}
       >
         Adriana Słabosz
       </Heading>
       <Box
         bg="brand.firstSectionHeading"
-        width={{ sm: "100%", lg: "100%" }}
-        height={{ sm: "2px", lg: "5px" }}
+        width="100%"
+        height={{ sm: "2px", md: "5px", lg: "5px" }}
         ml="10px"
       />
     </Box>
