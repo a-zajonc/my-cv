@@ -42,7 +42,7 @@ export function Contact({ title }) {
         <Link href="https://a-zajonc.github.io/portfolio/">
           {contactDisplay(
             faLaptopCode,
-            "https://a-zajonc.github.io/portfolio/"
+            "https://portfolio-a-zajonc.vercel.app/"
           )}
         </Link>
         <Link href="https://github.com/a-zajonc">
