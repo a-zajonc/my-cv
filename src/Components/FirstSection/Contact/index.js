@@ -39,7 +39,7 @@ export function Contact({ title }) {
         <Link href="mailto:slaboszadriana@gmail.com">
           {contactDisplay(faEnvelope, "slaboszadriana@gmail.com")}
         </Link>
-        <Link href="https://a-zajonc.github.io/portfolio/">
+        <Link href="https://portfolio-a-zajonc.vercel.app/">
           {contactDisplay(
             faLaptopCode,
             "https://portfolio-a-zajonc.vercel.app/"
